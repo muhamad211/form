@@ -1,0 +1,116 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(0deg,#c30967,#fff,#fff);
+}
+.wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 600px;
+    padding: 50px;
+    box-sizing: border-box;
+    background-color: white;
+    box-shadow: 0 10px 30px rgba(0,0,0,.5);
+}
+.wrapper h2{
+    color: crimson;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 30px;
+    text-transform: capitalize;
+    
+}
+.box{
+   position: relative;
+    width: 50%;
+    margin-top: 50px;
+    float: left;
+    
+}
+
+
+.box input, .box textarea{
+    width: 90%; 
+    padding: 5px;
+    box-sizing: border-box;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    border-bottom: 1.4px solid #b01030;
+    font-size: 14px;
+    color: black;
+    font-weight: 500;
+      
+}
+
+
+.box textarea{
+    border: 1.3px solid #b01030;
+    width: 476px;
+    margin-bottom: 15px;
+}
+.box label{
+    text-transform: capitalize;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 5px 0;
+   font-size: 16px;
+    pointer-events: none;/*ضروري */
+    font-weight: 700;
+    transition: .5s;
+    
+}
+.box input:focus +label,
+.box input:focus +textarea,
+.box input:valid +label,/*valid يعني طبق الخواص في حين كانت المدخلات صالحة*/
+.box input:valid +textarea
+{
+    top: -25px;
+    font-size: 14px;
+    padding: 4px 3px;
+    background-color: crimson;
+    color: #fff;
+    border-radius:5px;
+}
+.btn{
+    background-color: crimson;
+    color: #fff;
+    padding: 4px 16px;
+    border: 0;
+    outline: 0;
+    border-radius: 20px;
+    font-size: 16px;
+    font-family: cursive;
+    text-transform: capitalize;
+    transition: .3s;
+    clear: both;
+    display: block;
+}
+.btn:hover{
+    background-color: #c61236;
+    cursor: pointer;
+    transform: scale(.9)
+    
+}
+::placeholder{
+    color: darkgray;
+}
+
+
+  
+    
+  
+
+  
+
+
+
+
+

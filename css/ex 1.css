@@ -1,0 +1,159 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    height: 2000px;
+
+}
+.content{
+    width: 1200px;
+    margin: auto;
+}
+/*start header*/
+.header{
+    width: 100%;
+    height: 70px;
+    background-color: darkgreen;
+    
+}
+.header .logo{
+    float: left;
+    
+}
+.header .logo h3{
+    color: white;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+.header .nav{
+    float: right;
+}
+.header .nav ul li{
+    float: left;
+    padding-right: 38px;
+    padding-top: 14px;
+    font-size: 17px;
+    list-style: none;
+    text-transform: uppercase;
+    color: white;
+    
+}
+/*end header*/
+/*about*/
+.about {
+   background-image: url(../img/flo.jpg);
+    background-size: cover;/*100% 100% لعرضها كاملة*/
+    width: 100%;
+    height: 500px;
+}
+.about p{
+    margin: 0;
+    padding-top: 50px;
+    color: aliceblue;
+    clear: both;
+    text-align: center;
+    line-height: 34px;
+    font-size: 18px;
+    
+}
+.about button{
+    background-color: crimson;
+    border: 0;
+    border-radius: 8px;
+    width:120px;
+    height: 40px;
+    margin-left:500px;
+    font-size: 17px;
+    color: aliceblue;
+    font-weight: 600;
+    
+}
+/*end about*/
+/*start blog */
+.blog{
+    width: 100%;
+    height: 760px;
+    background-color: #031905;
+    padding-top: 30px;
+}
+.blog .part{
+    width: 250px;
+    background-color:bisque;
+    margin:20px 70px 30px 70px;
+    
+    border-radius: 15px;
+    float: left;
+    
+}
+.blog .part p{
+    text-align: center;
+    padding: 20px 20px 0 20px;
+    font-size: 15px;
+    line-height: 20px;
+    margin: 0;
+    
+}
+.blog .part img{
+    width: 100%;
+    height: 140px;
+}
+.blog .part button{
+    background-color: crimson;
+    border: 0;
+    border-radius: 6px;
+    width:100px;
+    height: 20px;
+    font-size: 14px;
+    color: aliceblue;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+/*end blog*/
+.clear{ clear: both;}
+/*start info*/
+.rep{
+    width: 250px;
+    height: 200px;
+    margin: 100px 13px 80px 130px;
+    float: left;
+    background-color: crimson;
+    border-radius: 10px;
+}
+.rep img{
+    width: 17%;
+    height:40px;
+    float:left;
+    margin: 10px;
+    
+}
+.rep p{
+padding-left: 60px;
+    font-size: 16px;
+    line-height: 25px;
+}
+.rep hr{
+    width: 70%;
+    margin-top: 30px;
+    
+}
+/*end info*/
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    padding: 0;
+   
+    
+}
+.box{
+    background-image: url(../img/rain.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+h1{
+    position: absolute;
+    top: 30%;
+    margin: 0;
+    padding: 0;
+    font-size: 8em;
+    text-align: center;
+    color: #fff;
+    text-shadow: 0 5px 10px rgba(0,0,0,1);
+    mix-blend-mode:overlay;
+    box-shadow: 0 5px 10px rgba(0,0,0,1);
+    background: rgba(0,0,0,.5);
+    
+}
+
+    
